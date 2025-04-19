@@ -1,0 +1,134 @@
+{
+    "Title": "Cabin in the Woods",
+    "Credits": "Created by Romeo Moreno(rmoren15@ucsc.edu).",
+    "InitialLocation": "Front Cabin",
+    "Locations": {
+        "Front Cabin": {
+            "Body": "This is your friends cabin located somewhere in the woods. You're with two of your friends.",
+            "Choices": [
+                {
+                    "Text": "Go inside",
+                    "Target": "Living Room"
+                }
+            ]
+        },
+        "Living Room": {
+            "Body": "You're in the living room. You see both a back entrance and a room entrance. ",
+            "Choices": [
+                {
+                    "Text": "Back entrance",
+                    "Target": "Back Entrance"
+                },
+                {
+                    "Text": "Room entrance",
+                    "Target": "Room Entrance"
+                }
+            ]
+        },
+        "Back Entrance": {
+            "Body": "You see a watchtower outside. Your friends yells to you to come to the riverbank.",
+            "Choices": [
+                {
+                    "Text": "Go to riverbank",
+                    "Target": "Riverbank Scene"
+                },
+                {
+                    "Text": "Stay inside",
+                    "Target": "Living Room 2"
+                }
+            ]
+        },
+        "Room Entrance": {
+            "Body": "The room is locked. The key must be around here. Your friends yell to you to come to the riverbank",
+            "Choices": [
+                {
+                    "Text": "Go to riverbank",
+                    "Target": "Riverbank Scene"
+                },
+                {
+                    "Text": "Stay inside",
+                    "Target": "Living Room 2"
+                }
+            ]
+        },
+        "Riverbank Scene": {
+            "Body": "You see something shiny on the ground. You pick it up. It's a key.",
+            "Choices": [
+                {
+                    "Text": "Go inside",
+                    "Target": "Living Room 2"
+                }
+            ]
+        },
+        "Living Room 2": {
+            "Body": "You are inside the living room. You hear screams from outside. It's your friends with the Murderer of the woods!!",
+            "Choices": [
+                {
+                    "Text": "Run to the watchtower",
+                    "Target": "Watchtower"
+                },
+                {
+                    "Text": "Run to the bedroom",
+                    "Target": "Bedroom 2"
+                }
+            ]
+        },
+        "Watchtower": {
+            "Body": "You run up the watch tower. Inside there is a radio",
+            "Choices": [
+                {
+                    "Text": "Turn on Radio",
+                    "Target": "Radio Message"
+                }
+            ]
+        },
+        
+        "Cabin Fight": {
+            "Body": "You hear footsteps coming up the tower. The killer is about you reach the top. You get ready to fight. As the fight goes on you overpower the killer and have him at the edge. ",
+            "Choices": [
+                {
+                    "Text": "Push him",
+                    "Target": "Dead"
+                }
+            ]
+        },
+        "Bedroom 2": {
+            "Body": "The room is locked. Do you have the key? Yes, go inside. No, run to watchtower.",
+            "Choices": [
+                {
+                    "Text": "Run to the watchtower",
+                    "Target": "Watchtower"
+                },
+                {
+                    "Text": "Open door.",
+                    "Target": "Inside Bedroom",
+                    "RequiresKey": true
+                }
+            ]
+        },
+        "Inside Bedroom": {
+            "Body": "You are inside the murderers bedroom. You hear foot steps inside the house. You see a gun on the bed. You pick it up and get ready to shoot.",
+            "Choices": [
+                {
+                    "Text": "Shoot the Killer",
+                    "Target": "Dead"
+                }
+            ]
+        },
+        "Dead": {
+            "Body": "The Murderer is now dead. Run away now!"
+        }
+    },
+    "SpecialLocations": {
+        "Radio Message": {
+            "Body": "There is a Murderer living in a cabin somewhere in the woods. We advise people stay away from woods for the time being.",
+            "Choices": [
+                {
+                    "Text": "Get ready to fight",
+                    "Target": "Cabin Fight"
+                }
+    
+            ]
+        }
+    }
+}
