@@ -26,7 +26,7 @@
             ]
         },
         "Back Entrance": {
-            "Body": "You see a watchtower outside. Your friends yells to you to come to the riverbank.",
+            "Body": "You see a watchtower outside. Your friends yell at you. Come to the riverbank.",
             "Choices": [
                 {
                     "Text": "Go to riverbank",
@@ -39,7 +39,7 @@
             ]
         },
         "Room Entrance": {
-            "Body": "The room is locked. The key must be around here. Your friends yell to you to come to the riverbank",
+            "Body": "The room is locked. The key must be around here. Your friends yell to you to come to the riverbank.",
             "Choices": [
                 {
                     "Text": "Go to riverbank",
@@ -84,7 +84,7 @@
         },
         
         "Cabin Fight": {
-            "Body": "You hear footsteps coming up the tower. The killer is about you reach the top. You get ready to fight. As the fight goes on you overpower the killer and have him at the edge. ",
+            "Body": "You hear footsteps coming up the tower. The killer is about to reach the top. You get ready to fight. As the fight goes on you overpower the killer and have him at the edge. ",
             "Choices": [
                 {
                     "Text": "Push him",
@@ -107,7 +107,7 @@
             ]
         },
         "Inside Bedroom": {
-            "Body": "You are inside the murderers bedroom. You hear foot steps inside the house. You see a gun on the bed. You pick it up and get ready to shoot.",
+            "Body": "You are inside the murderer's bedroom. You hear footsteps inside the house. You see a gun on the bed. You pick it up and get ready to shoot.",
             "Choices": [
                 {
                     "Text": "Shoot the Killer",
